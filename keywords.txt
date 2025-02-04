@@ -1,0 +1,59 @@
+#######################################
+# Syntax Coloring Map For The HTU31D
+#######################################
+
+#######################################
+# Data Types (KEYWORD1)
+#######################################
+
+HTU31D	KEYWORD1
+ConversionTime	KEYWORD1
+Resolution	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+setResolution	KEYWORD2
+reset	KEYWORD2
+readSerial	KEYWORD2
+enableHeater	KEYWORD2
+requestData	KEYWORD2
+available	KEYWORD2
+readData	KEYWORD2
+readTemp	KEYWORD2
+readHumi	KEYWORD2
+getTemperature	KEYWORD2
+getHumidity	KEYWORD2
+getDewPoint	KEYWORD2
+crc KEYWORD2
+
+_sendCmd	KEYWORD2
+_readData	KEYWORD2
+_calcDewPoint	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+HTU31D_DEFAULT_ADDR	LITERAL1
+HTU31D_ALT_ADDR	LITERAL1
+
+HTU31D_CONVERSION	LITERAL1
+HTU31D_READ_TEMP_HUMI	LITERAL1
+HTU31D_READ_HUMI	LITERAL1
+HTU31D_RESET	LITERAL1
+HTU31D_HEATER_ON	LITERAL1
+HTU31D_HEATER_OFF	LITERAL1
+HTU31D_READ_SERIAL	LITERAL1
+
+HTU31D_CONVERSION_TIME	LITERAL1
+
+HTU31D_DATA_LEN	LITERAL1
+HTU31D_TEMP_DATA_LEN	LITERAL1
+HTU31D_HUMI_DATA_LEN	LITERAL1
+HTU31D_SERIAL_LEN	LITERAL1
+
+HTU21D_TEMP_CONV_TIMES	LITERAL1
+HTU21D_HUMI_CONV_TIMES	LITERAL1
